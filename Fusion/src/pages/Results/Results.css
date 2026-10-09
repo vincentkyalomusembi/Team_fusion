@@ -1,0 +1,19 @@
+/* ---------- results ---------- */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.stats div { background: var(--sky-l); border-radius: var(--r); padding: 16px 18px; display: flex; flex-direction: column; }
+.stats small { color: var(--mute); }
+.stats b { font-size: 24px; font-weight: 800; letter-spacing: -.02em; }
+.red-text { color: var(--red); }
+.grid2 { display: grid; grid-template-columns: 3fr 2fr; gap: 18px; }
+.panel h3 small { font-weight: 500; color: var(--mute); }
+.assume div { display: flex; justify-content: space-between; gap: 16px; padding: 8px 0; border-bottom: 1px solid var(--sky); }
+.assume dt { color: var(--mute); }
+.assume dd { font-weight: 600; text-align: right; }
+.ai { background: var(--sky-l); border-color: var(--sky-m); }
+.ai-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.explain { white-space: pre-wrap; line-height: 1.7; max-width: 75ch; }
+
+/* ---------- results header, chat, report ---------- */
+.results-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+
+.eyebrow { color: var(--sky-d); text-transform: uppercase; letter-spacing: .08em; font-size: 11px; font-weight: 800; }

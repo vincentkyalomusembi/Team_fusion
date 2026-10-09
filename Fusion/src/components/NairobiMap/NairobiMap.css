@@ -1,0 +1,14 @@
+/* ---------- map ---------- */
+.mapbox {
+    position: relative; flex: 1; min-height: 360px;
+    border-radius: var(--r); overflow: hidden; border: 1px solid var(--line);
+}
+.mapbox.tall { flex: none; height: 560px; }
+.hotspot { border-radius: 50%; border: 2px solid; cursor: pointer; }
+.building {
+    border-radius: 50%; background: var(--red); border: 2px solid #fff;
+    box-shadow: 0 0 0 1px rgba(20, 38, 58, .35); cursor: pointer;
+}
+.pop { display: flex; flex-direction: column; font-size: 12px; gap: 2px; }
+.pop span { color: var(--mute); }
+

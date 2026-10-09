@@ -1,0 +1,32 @@
+/* ---------- pipeline steps ---------- */
+.pipeline { padding: 0; }
+.pipeline .method {
+    width: 100%;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 18px;
+    background: none; border: none; cursor: pointer;
+    color: var(--ink);
+}
+.pipeline .method h3 { margin: 0; }
+
+.pipeline-list {
+    list-style: none;
+    padding: 0 18px 18px;
+    display: flex; flex-direction: column; gap: 10px;
+}
+.pipeline-list li {
+    display: flex; gap: 14px; align-items: flex-start;
+    padding: 12px 14px;
+    border: 1px solid var(--line); border-radius: 10px;
+    background: #fff;
+}
+.pipeline-num {
+    flex-shrink: 0;
+    width: 26px; height: 26px;
+    display: inline-flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: var(--red); color: #fff;
+    font-weight: 800; font-size: 12px;
+}
+.pipeline-list b { display: block; font-size: 13px; margin-bottom: 2px; }
+.pipeline-list p { color: var(--mute); font-size: 12px; line-height: 1.5; }

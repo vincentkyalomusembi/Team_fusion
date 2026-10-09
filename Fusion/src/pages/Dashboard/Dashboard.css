@@ -1,0 +1,35 @@
+/* ---------- shell / sidebar ---------- */
+.shell { display: flex; height: 100%; }
+.side {
+    width: 280px; flex-shrink: 0;
+    background: var(--sky-l); border-right: 1px solid var(--line);
+    padding: 24px 18px; display: flex; flex-direction: column; gap: 18px;
+    overflow: auto;
+}
+.brand { font-weight: 800; font-size: 18px; letter-spacing: -.02em; }
+.brand span { color: var(--red); }
+.side h3 { margin: 8px 0 0; color: var(--mute); font-weight: 600; font-size: 13px; }
+.history { list-style: none; display: flex; flex-direction: column; gap: 4px; }
+.history button {
+    width: 100%; display: flex; gap: 10px; align-items: flex-start; text-align: left;
+    background: none; border: none; padding: 10px; border-radius: 10px; color: var(--ink);
+}
+.history button:hover { background: #fff; }
+.history b { display: block; font-size: 13px; }
+.history small { color: var(--mute); font-size: 12px; }
+.empty { color: var(--mute); font-size: 13px; }
+
+/* ---------- main ---------- */
+.main {
+    flex: 1; min-width: 0; position: relative;
+    display: flex; flex-direction: column; padding: 24px 28px; gap: 16px;
+    overflow: hidden;
+}
+.top { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: flex-end; }
+.top p { color: var(--mute); margin-top: 2px; }
+.counts { display: flex; gap: 16px; font-weight: 600; font-size: 13px; }
+.counts i {
+    display: inline-block; width: 10px; height: 10px;
+    border-radius: 50%; margin-right: 6px;
+}
+

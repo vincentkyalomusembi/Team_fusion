@@ -1,0 +1,19 @@
+/* ---------- top navigation ---------- */
+.topnav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 16px; background: #fff;
+    border: 1px solid var(--line); border-radius: var(--r);
+    flex-shrink: 0;
+}
+.topnav-brand { font-weight: 800; font-size: 15px; letter-spacing: -.02em; }
+.topnav-brand span { color: var(--red); }
+.topnav-links { display: flex; gap: 6px; }
+.topnav-links a, .topnav-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 7px 12px; border-radius: 8px;
+    font-size: 13px; font-weight: 600; color: var(--mute);
+    background: none; border: none; text-decoration: none; cursor: pointer;
+}
+.topnav-links a:hover, .topnav-btn:hover { background: var(--sky-l); color: var(--ink); }
+.topnav-links a.active { background: var(--sky-l); color: var(--red); }
+

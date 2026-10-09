@@ -1,0 +1,17 @@
+# Frontend dependencies and build output
+Fusion/node_modules/
+Fusion/dist/
+Fusion/.env
+
+# Backend secrets, environments, and caches
+fusion-backend/.env
+fusion-backend/.venv/
+fusion-backend/venv/
+fusion-backend/__pycache__/
+fusion-backend/**/__pycache__/
+fusion-backend/*.py[cod]
+fusion-backend/**/*.py[cod]
+
+# Local tooling and editor files
+.vscode/
+.DS_Store

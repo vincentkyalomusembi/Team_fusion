@@ -1,0 +1,8 @@
+.chat .msgs { display: flex; flex-direction: column; gap: 8px; max-height: 360px; overflow: auto; margin-bottom: 12px; }
+.ideas { display: flex; flex-wrap: wrap; gap: 8px; }
+.msg { padding: 10px 14px; border-radius: 12px; max-width: 80%; white-space: pre-wrap; line-height: 1.55; }
+.msg.user { align-self: flex-end; background: var(--sky-d); color: #fff; }
+.msg.assistant { align-self: flex-start; background: var(--sky-l); }
+.chat form { display: flex; gap: 8px; }
+.chat input { flex: 1; font: inherit; padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; }
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; }
